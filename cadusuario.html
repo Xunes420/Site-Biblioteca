@@ -1,0 +1,36 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Usuario</title>
+</head>
+
+
+<body>
+	<h1>Cadastro do Usuario </h1>
+	 <script>
+		function livro() {
+			 alert("Nome: "+ document.getElementById("txtnome").value +"\n"+" cpf: "+ document.getElementById("txtcpf").value +"\n"+" telefone: "+ document.getElementById("txttelefone").value +"\n"+" matricula: "+ document.getElementById("txtmatricula").value);
+
+			 //alert("Nome: "+ document.getElementById("txtcodigo").value +"\n"+" Cativa: "+ document.getElementById("txtcativa").value +"\n"+" Emprestada:"+ document.getElementById("txtemprestada").value);
+
+		}
+	</script> 
+<form id="formulario" method="post" action="">
+
+</form>
+
+	nome:     <br><input type="text" id="txtnome"      name="txtnome"><br><br>
+	cpf:      <br><input type="text" id="txtcpf"       name="txtcpf"><br><br>
+	telefone: <br><input type="text" id="txttelefone"  name="txttelefone"><br><br>
+	matricula:<br><input type="text" id="txtmatricula" name="txtmatricula"><br><br>
+
+
+
+
+<button onclick="livro()">Enviar</button">
+
+</form>
+
+
+</body>
+</html>

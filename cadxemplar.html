@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exemplar</title>
+</head>
+
+<body>
+	<h1>Exemplar </h1>
+	<script>
+		function Livro() {
+			 
+			 alert("Nome: "+ document.getElementById("txtcodigo").value +"\n"+" Cativa: "+ document.getElementById("txtcativa").value +"\n"+" Emprestada:"+ document.getElementById("txtemprestada").value);
+
+		}
+	</script>
+	<form id="formulario"  method="post" action="">
+	Codigo:     <br><input     type="text"     id="txtcodigo"   name="txtcod"><br><br>
+	Cativa:     <br><input     type="text"     id="txtcativa"   name="txtcativa"><br><br>
+	Emprestada: <br><input     type="text"     id="txtemprestada"  name="txtemprestada"><br><br>
+	
+	 
+	<button onclick="Livro()">Enviar</button">
+
+
+</form>
+
+</body>
+</html>
